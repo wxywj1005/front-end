@@ -38,7 +38,7 @@ JSON.parse(JSON.stringify(obj))有三个问题
                 var Constructor = object[key]
 
                 func=>
-                不太清楚，用bind？用eval
+                不太清楚，用bind是可行的，虽然当箭头函数的时候不会改变this。用eval箭头函数不行，正派实现应该是好像用buffer
 
                 array=> [...obj[key]]
 
