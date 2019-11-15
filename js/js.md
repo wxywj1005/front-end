@@ -63,3 +63,10 @@ JSON.parse(JSON.stringify(obj))有三个问题
 #### object.assign
 
 浅拷贝，包括 symbol
+
+
+```js
+
+
+
+```
