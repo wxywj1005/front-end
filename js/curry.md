@@ -15,3 +15,12 @@ function curry(fn) {
   return curryedFn;
 }
 ```
+
+```js
+function curry(fn){
+  const curryedFn =funciton(...args){
+    return args.length < fn.length ?  curryedFn.bind(null, ...args) : fn.apply(null, args)
+  }
+
+}
+```

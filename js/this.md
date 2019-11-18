@@ -22,4 +22,4 @@
 - 将这个对象绑定到构造函数中的 this
 - 如果函数没有返回其他对象，则 new 操作符调用的函数则会返回这个对象
 
-参考： 《你不知道的 js》、[bind 函数实现原理](https://juejin.im/post/5b3c3377f265da0f8f20131f)
+参考： 《you don't know js》、[bind 函数实现原理](https://juejin.im/post/5b3c3377f265da0f8f20131f)
